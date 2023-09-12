@@ -35,47 +35,47 @@ export const experiencesData = [
     title: "Undergrad @BITS Pilani",
     location: "Hyderabad, India",
     description:
-      "Majored in Electronics and Instrumentation with a minor in Computing and Intelligence",
+      "• Majored in Electronics and Instrumentation with a minor in Computing and Intelligence",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2024",
   },
   {
-    title: "Software Developer Intern",
+    title: "Intern @Jio Platforms Ltd",
     location: "Remote",
     description:
-      "Worked ",
+      `• Worked on the development of a web app for audio transcription and translation
+        • Used Speech to Text frameworks and NLP algorithms
+      `,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Online Supermarket",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "An E-commerce website simulating a supermarket. Added various roles for better management of the inventory and orders.",
+    tags: ["React", "Spring Boot", "MySQL"],
+    githubUrl: 'https://github.com/shaurya5/online-supermarket',
+    imageUrl: '/online-supermarket.png'
   },
   {
-    title: "rmtDev",
+    title: "Expense Tracker",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A web app for tracking your spendings and savings. Implemented budgeting visualizations for effective money management.",
+    tags: ["React", "NodeJS", "MongoDB"],
+    githubUrl: 'https://github.com/shaurya5/expense-tracker',
+    imageUrl: '/expense-tracker.png'
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  },
+    title: "Treasure Hunt",
+    description: 
+      "A platform for hosting treasure hunts. Users can join and decode the problems and a leaderboard is maintained for the same.",
+    tags: ["React", "Supabase", "Cloudinary"],
+    githubUrl: 'https://github.com/shaurya5/treasure-hunt',
+    imageUrl: '/treasure-hunt.png'
+  }
 ] as const;
 
 export const skillsData = [
