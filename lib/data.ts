@@ -35,7 +35,7 @@ export const experiencesData = [
     title: "Undergrad @BITS Pilani",
     location: "Hyderabad, India",
     description:
-      "• Majored in Electronics and Instrumentation with a minor in Computing and Intelligence",
+      "Majored in Electronics and Instrumentation with a minor in Computing and Intelligence",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2024",
   },
@@ -43,8 +43,8 @@ export const experiencesData = [
     title: "Intern @Jio Platforms Ltd",
     location: "Remote",
     description:
-      `• Worked on the development of a web app for audio transcription and translation
-        • Used Speech to Text frameworks and NLP algorithms
+      `Worked on the development of a web app for audio transcription and translation.
+        Used Speech to Text frameworks and NLP algorithms for a meeting summarizer app
       `,
     icon: React.createElement(CgWorkAlt),
     date: "2022",
@@ -79,10 +79,10 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "C/C++",
+  "Java",
   "JavaScript",
-  "TypeScript",
+  "HTML + CSS",
   "React",
   "Next.js",
   "Node.js",
