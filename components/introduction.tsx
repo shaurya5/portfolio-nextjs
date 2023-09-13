@@ -21,7 +21,7 @@ export default function Introduction() {
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
-        <div className="relative">
+        <div className="relative mt-[3rem]">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -63,10 +63,9 @@ export default function Introduction() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Shaurya.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">senior undergrad</span> with{" "}
+        a passion of all things tech. <br />
+        Currently exploring <span className="italic">Next.js + TypeScript</span> while continually discovering new things about the ever-evolving realm of development
       </motion.h1>
 
       <motion.div
@@ -94,7 +93,7 @@ export default function Introduction() {
           href="/Resume_Shaurya.pdf"
           download
         >
-          Download CV{" "}
+          Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
