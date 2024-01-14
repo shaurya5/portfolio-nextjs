@@ -43,11 +43,12 @@ export const experiencesData = [
         Used Speech to Text frameworks and NLP algorithms for a meeting summarizer app
       `,
     icon: React.createElement(CgWorkAlt),
-    date: "2022",
+    date: "May 2022 - Jul 2022",
   },
   {
     title: "System Software Intern @Nvidia Graphics",
     location: "Bengaluru, India",
+    description: "",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2024 - Present"
   }
