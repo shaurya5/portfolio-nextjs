@@ -11,13 +11,13 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Introduction() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("About", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
       ref={ref}
-      id="home"
+      id="about"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">

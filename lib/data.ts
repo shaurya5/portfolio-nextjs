@@ -5,10 +5,6 @@ import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
-  },
-  {
     name: "About",
     hash: "#about",
   },
@@ -49,6 +45,12 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
+  {
+    title: "System Software Intern @Nvidia Graphics",
+    location: "Bengaluru, India",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2024 - Present"
+  }
 ] as const;
 
 export const projectsData = [
